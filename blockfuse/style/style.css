@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppin');
+
+
+*{
+    margin: 1px;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    position:
+}
+
+.header {
+    position: relative;
+    top: 1px;
+    left: 0;
+    width: 95%;
+    border-radius: 40px;
+    opacity: 1.0;
+    box-shadow: 5px 10px;
+    color: #ad9b9b;
+    padding: 10px 10px;
+    background: transparent;
+    border: 2px solid rgb(245, 232, 207);
+    display: flex;
+    flex: content;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+ .logo {
+position: fixed;
+background-size: 3px;
+border-radius: 30px;
+ }
+
+.navbar a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
+}
+.navbar a:hover{
+    color:red;
+}
+
+.home {
+    height: 60vh;
+    background: url('../images/background\ img.png') no-repeat ;
+    background-size: 60%;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+.home-content{
+    max-width: 500px;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2;
+    width: 140%;
+    margin:10px 0 10px ;
+    background-color: transparent;
+    
+    
+}
+
+.home-content h2 {
+    color: hwb(275 2% 66% / 0.433);
+    font-size: 44px;
+    text-shadow: 6px;
+    line-height: 1.3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-content p {
+    font-size: 0px;
+    margin: 12px 0 10px;
+    text-align: justify;
+    font: 1em sans-serif;
+    font-weight: 400;
+}
+
+.btn-box ,.btn-box1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 40px;
+    margin-left: 0;
+}
+.btn-box a ,.btn-box1 a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex;
+    width: 200px;
+    height: 60%;
+    background:blueviolet;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    transition: .5s;
+    margin: 10px 0 10px;
+}
+.main-content{
+background-color: rgb(232, 213, 251);
+}
+.main-content h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.main img{
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.main h4 {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+    margin:10px 0 10px;
+    background-color: transparent;
+    text-align: center;
+}
+
+div .footer img{
+    border-radius: 50px;
+}
+
+
+.container1,.container2, .container3 {
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 1px;
+    background:transparent;
+        
+}
+
+.container1 > div {
+    background-color: transparent;
+    border: 2px solid;
+    border-color: blue;
+    width: 180px;
+    height: 30px;
+    border-radius: 18px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    margin: 10px 50px 20px;
+    text-align: center;
+}
+
+.container2 > div {
+    background-color: transparent;
+    border: 2px solid;
+    border-color: blue;
+    width: 180px;
+    height: 30px;
+    border-radius: 18px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    margin: 10px 50px 20px;
+    text-align: center;
+}
+
+.container3 > div {
+    background-color: transparent;
+    border: 2px solid;
+    border-color: blue;
+    width: 190px;
+    height: 30px;
+    border-radius: 18px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    margin: 10px 50px 20px;
+    text-align: center;
+}
+
+.main-2{
+    margin-top: 30px;
+
+}
+
+.main-2 h3 {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    color: rgb(184, 180, 173);
+}
+.main-2 h4 {
+    text-align: center;
+    padding-top: 9px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+}
+.main-2 p {
+   text-align: center;
+     padding-top: 0;
+    background-color: transparent;
+    font: 100;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(167, 164, 157);
+    width:900px;
+    padding-left: 20%;
+}
+.main-2 img {
+    width: 80px;
+    height: 80px;
+    align-content: center;
+    border-radius:60px;
+    margin-left: 46%;
+    
+}
+.main-2 h6{
+    padding-top: 0;
+    margin-left: 43%;
+    font-size: 15px;
+    color: rgb(202, 197, 189);
+
+}
+
+.main-2 h5{
+    margin-left: 44%;
+    color: rgb(151, 147, 139);
+}
+.main-3{
+    margin-top: 30px;
+}
+
+.main-3 h2{
+    margin-left: 44%;
+}
+.main-3 p{
+    text-align: center;
+    padding-top: 0;
+   font-size: 14px;
+   margin-top: 10px;
+   width:900px;
+   padding-left: 18%;
+}
+.main-3 h3{
+margin: 20px 0 10px;
+margin-left: 40px;
+font-size: 30px;
+border-bottom: 2px solid #ad9b9b;
+}
+.navbar-2{
+    height: 50px;
+    width: 70%;
+    margin-left: 20%;
+
+}
+.navbar-2 a{
+    font-size: 14px;
+    padding-bottom: 50px; ;
+    color: #000;
+    text-decoration: none;
+    font-weight: 100;
+    width: 100px;
+    margin-left: 10%;
+    padding-top: 20px;
+    border: 5px solid transparent;
+}
+.navbar-2 a:hover{
+    color: blueviolet;
+}
+
+.home-sci{
+    position: relative;
+    margin-left: 45%;
+    top: -2rem;
+    bottom: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    font-size: 50px;
+    padding: 10PX;
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.end h5{
+    margin-left: 44%;
+
+}
+footer p{
+    margin-left: 40%;
+}
